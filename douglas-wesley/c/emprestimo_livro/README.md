@@ -1,0 +1,13 @@
+# Empréstimo Livro
+## Quem participou
+- Douglas Nascimento | 5º Período CC
+- Wesley Vilgino do Nascimento | 4º Período CC
+
+# O que cada um fez?
+## Douglas
+-- Ajudou na parte de criação de usuários
+-- Fez funções em relação a biblioteca
+
+## Wesley
+-- Fez o menu e o struct.h
+-- Fez parte da criação de usuários
