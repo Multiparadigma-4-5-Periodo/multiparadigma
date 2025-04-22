@@ -9,5 +9,9 @@
 -- Fez funções em relação a biblioteca
 
 ## Wesley
--- Fez o menu e o struct.h
--- Fez parte da criação de usuários
+-- Fez o menu e o struct.h<br>
+-- Fez parte da criação de usuário
+
+# Como rodar?
+
+make main

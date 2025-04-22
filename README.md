@@ -4,7 +4,7 @@
 - Douglas e Wesley (Trabalhos feitos por Douglas Nascimento e Wesley Nascimento)
 
 ## Douglas
--- c/strings
+-- c/strings<br>
 -- python/personagem
 
 ## Douglas E Wesley

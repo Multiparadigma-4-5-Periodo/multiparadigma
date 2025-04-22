@@ -3,10 +3,11 @@
 
 /*
 ** Douglas Nascimento
-** Wesley Nascimento
+** Wesley Vilgino do Nascimento
 */
 
-#include "functions.h"
+#include "../lib/functions.h"
+#include "../lib/clear.h"
 
 int main() {
     Book library[MAX_BOOKS];
@@ -43,38 +44,47 @@ int main() {
 
         switch (option) {
             case 1:
+                clear2();
                 listBooks(library, MAX_BOOKS);
                 break;
             case 2:
+                clear2();
                 printf("Enter book ID to borrow (1 to %d): ", MAX_BOOKS);
                 scanf("%d", &bookId);
                 bookId--;
                 if (bookId >= 0 && bookId < MAX_BOOKS) {
                     borrowBook(&library[bookId], loggedInUser);
                 } else {
+                    clear2();
                     printf("Invalid book ID.\n");
                 }
                 break;
             case 3:
+                clear2();
                 printf("Enter book ID to return (1 to %d): ", MAX_BOOKS);
                 scanf("%d", &bookId);
                 bookId--;
                 if (bookId >= 0 && bookId < MAX_BOOKS) {
                     returnBook(&library[bookId], loggedInUser);
                 } else {
+                    clear2();
                     printf("Invalid book ID.\n");
                 }
                 break;
             case 4:
+                clear2();
                 showLibraryReport(library, MAX_BOOKS);
                 break;
             case 5:
+                clear2();
                 showUserBooks(library, MAX_BOOKS, &users[loggedInUser]);
                 break;
             case 0:
+                clear2();
                 printf("Exiting program...\n");
                 break;
             default:
+                clear2();
                 printf("Invalid option.\n");
         }
 
