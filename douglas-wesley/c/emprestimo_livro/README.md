@@ -5,7 +5,7 @@
 
 # O que cada um fez?
 ## Douglas
--- Ajudou na parte de criação de usuários
+-- Ajudou na parte de criação de usuários<br>
 -- Fez funções em relação a biblioteca
 
 ## Wesley
@@ -14,4 +14,7 @@
 
 # Como rodar?
 
-make main
+``` bash
+make
+```
+
